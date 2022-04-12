@@ -1,0 +1,60 @@
+name: travel_app
+description: A new Flutter project.
+
+
+
+version: 1.1.0+2
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.2
+  http: ^0.13.4
+  fluttertoast: ^8.0.8
+  google_maps_flutter: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.3"
+
+flutter_icons:
+  android: true
+  ios: true
+
+
+
+
+flutter:
+
+
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+    - assets/images/weather/
+
+  fonts:
+    - family: AnticSlab
+      fonts:
+        - asset: assets/fonts/AnticSlab-Regular.ttf
+    - family: Outfit
+      fonts:
+        - asset: assets/fonts/Outfit-Regular.ttf
+
+    - family: Spartan
+      fonts:
+        - asset: assets/fonts/Spartan-Regular.ttf
+
+
+
+
+
